@@ -10,7 +10,9 @@ export default {
   components: {
     AppHeader, AppMain, AppFooter
   },
-
+  data() {
+    return { store }
+  },
   methods: {
 
   }
@@ -18,7 +20,13 @@ export default {
 
 </script>
 
-<template></template>
+<template>
+  <AppHeader :elements="store.headerNavs"></AppHeader>
+
+  <AppMain> </AppMain>
+
+  <AppFooter :elementsFooter="store.footerInfos"></AppFooter>
+</template>
 
 
 <style>

@@ -1,14 +1,19 @@
 <script>
+import { store } from "../data/store";
 export default {
+    name: "AppHeader",
     data() {
-
+        return { store }
+    },
+    props: {
+        elements: Object
     }
 };
 
 </script>
 <template>
     <div class="container">
-
+        <ul class="menu"> </ul>
     </div>
 </template >
 
