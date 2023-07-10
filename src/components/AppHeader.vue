@@ -14,9 +14,9 @@ export default {
 <template>
     <div class="container">
         <ul class="menu container">
-            <div v-for="element in elements" :key="element">
-                <li> {{ store.headerNavs[1] }} </li>
-                <li>{{ elements[1] }}</li>{{ elements[2] }}<li>{{ elements[3] }}</li>
+            <div v-for="element in elements" :key="elements">
+                {{ element }}
+
 
 
             </div>
@@ -25,7 +25,13 @@ export default {
 
         </ul>
         <img :src="store.headerLogo" alt="" class="logo">
-
+        <div class="input-group rounded">
+            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                aria-describedby="search-addon" />
+            <span class="input-group-text border-0" id="search-addon">
+                <i class="fas fa-search"></i>
+            </span>
+        </div>
         <i class="fa-solid fa-ghost"></i>
     </div>
 
