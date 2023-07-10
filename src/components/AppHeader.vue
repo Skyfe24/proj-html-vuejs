@@ -15,21 +15,17 @@ export default {
     <div class="container">
         <ul class="menu container">
             <div v-for="element in elements" :key="element">
-                <li> {{ elements[0] }} </li>
+                <li> {{ store.headerNavs[1] }} </li>
                 <li>{{ elements[1] }}</li>{{ elements[2] }}<li>{{ elements[3] }}</li>
 
 
             </div>
             <a class="active-menu" href="#">{{ element }}</a>
             <a href="#" class="class"></a>
-            <a href="#">
-                <i class="fa-solid fa-chevron-down active-menu" style="color: #000000;"></i>
-            </a>
+
         </ul>
         <img :src="store.headerLogo" alt="" class="logo">
-        <i class="fa-solid fa-cart-shopping circle_container" style="color: #000000;">
 
-        </i>
         <i class="fa-solid fa-ghost"></i>
     </div>
 
