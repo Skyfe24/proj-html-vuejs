@@ -42,9 +42,4 @@ li {
 
   color: rgb(253, 252, 252);
 }
-
-.container {
-  background-color: rgb(44, 42, 42);
-
-}
 </style>
