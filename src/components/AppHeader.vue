@@ -14,6 +14,10 @@ export default {
 <template>
     <div class="container">
         <ul class="menu"> </ul>
+        <img :src="store.headerLogo" alt="">
+        <i class="fa-solid fa-cart-shopping circle_container" style="color: #000000;">
+            <span class="circle">0</span>
+        </i>
     </div>
 </template >
 
