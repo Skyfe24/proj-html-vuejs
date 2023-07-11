@@ -1,4 +1,5 @@
 <script>
+
 </script>
 <template>
     <div class="container3 ">
@@ -9,7 +10,8 @@
                 Spend some time to visit our website or head office and <br>discover our current courses, enrollment
                 procedure,
                 and <br>registration deadling. We're opening new classes every <br>beginning of each month. <br>
-                <p> Have Questions? <span class="watergreen"> Get Free Guide -></span></p>
+                <p> Have Questions? <span class="watergreen"><br><br> <span class="navs">Get Free Guide <i
+                                class="fa-solid fa-arrow-right"></i></span></span></p>
             </div>
         </div>
 
@@ -33,8 +35,21 @@
     </div>
     <div class="container2">
 
-        <img src="../assets/img/stock-full-hd-11-670x450.jpg" alt="">
-        <div class="text"> Upgrade Your Skills Upgrade Your Life</div>
+        <img src="../assets/img/stock-full-hd-11-670x450.jpg" alt="" class="telephonegirl">
+        <div class="textpart">
+            <div class="minititles"> HOW WE WORK </div>
+            <div class="text">
+                <h1>Upgrade Your <br> Skills <span class="watergreen">Upgrade <br>Your Lifeclass</span></h1>
+                Opening up more opportunities in front of you to get the <br> ticket to more enjoyable door in life. Getting
+                equipped with <br>
+                new skills for new sets of insights into your career. <br>
+                MaxCoach accompany learners in every stage of learning. <br>
+                <br><br>
+                <span class="navs">Downloadfree guidebook <i class="fa-solid fa-arrow-right"></i></span>
+
+
+            </div>
+        </div>
     </div>
     <div class="text"> Latest Online Courses </div>
 
@@ -50,6 +65,8 @@
 
 
 <style scoped>
+@use './scss.scss'
+
 img {
     max-height: 400px;
     width: 100vw;
@@ -60,6 +77,10 @@ img {
     margin-left: 25px;
     text-align: center;
 
+}
+
+.telephonegirl {
+    width: 40%;
 }
 
 .bold {
