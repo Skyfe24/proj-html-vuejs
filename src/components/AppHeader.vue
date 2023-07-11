@@ -34,48 +34,6 @@ export default {
         </div>
         <i class="fa-solid fa-ghost"></i>
     </div>
-
-    <img src="../assets/img/home-3-hero-bg.jpg" alt="" class="hero">
-    <div class="herotext"> Commence Business <br>
-        <h1>Distant Mentoring Program</h1><br>
-        <button class="btn-white watergreen navs"> Download free guidebook -></button>
-    </div>
-    <!-- fine dell'HERO -->
-
-    <div class="container3 ">
-        <div class="textpart">
-            <div class="minititles"> EVERYTHING IN MAXCOACH</div>
-            <div class="text">
-                <h1>Learn about our <br><span class="watergreen">Work Culture </span>at <br>MaxCoach</h1>
-                Spend some time to visit our <br>website or head office and <br>discover our current courses, enrollment
-                procedure,
-                and <br>registration deadling. We're opening new classes every <br>beginning of each month. <br>
-                <p> Have Questions? <span class="watergreen"> Get Free Guide -></span></p>
-            </div>
-        </div>
-
-        <img src="../assets/img/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="">
-
-    </div>
-
-    <div class="container2">
-        <div class="text"> 129+ , 80, 4% </div>
-    </div>
-    <div class="container2">
-
-        <img src="../assets/img/stock-full-hd-11-670x450.jpg" alt="">
-        <div class="text"> Upgrade Your Skills Upgrade Your Life</div>
-    </div>
-    <div class="text"> Latest Online Courses </div>
-
-    <div class="container2">
-        <img src="../assets/img/stock-full-hd-03-480x298.jpg" alt="">
-        <img src="../assets/img/stock-full-hd-03-480x298.jpg" alt="">
-        <img src="../assets/img/stock-full-hd-06-480x298.jpg" alt="">
-
-    </div>
-    <div class="text"> Control your personal preference settings to get notified ab,out appropriate courses. View all
-        courses </div>
 </template >
 
 
