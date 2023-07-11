@@ -1,7 +1,9 @@
 <script>
 import axios from 'axios';
 import AppHeader from './components/AppHeader.vue';
-import AppMain from './components/AppMain.vue';
+import AppMainSection1 from './components/AppMainSection1.vue';
+import AppMainSection2 from './components/AppMainSection2.vue';
+import AppMainSection3_Courses from './components/AppMainSection3_Courses.vue';
 import AppFooter from './components/AppFooter.vue';
 import AppHero from './components/AppHero.vue';
 import { store } from "./data/store";
@@ -9,7 +11,7 @@ import { store } from "./data/store";
 export default {
 
   components: {
-    AppHeader, AppHero, AppMain, AppFooter
+    AppHeader, AppHero, AppMainSection1, AppMainSection2, AppMainSection3_Courses, AppFooter
   },
   data() {
     return { store }
@@ -24,6 +26,9 @@ export default {
 <template>
   <AppHeader :elements="store.headerNavs"></AppHeader>
   <AppHero> </AppHero>
+  <AppMainSection1> </AppMainSection1>
+  <AppMainSection2> </AppMainSection2>
+  <AppMainSection3_Courses> </AppMainSection3_Courses>
   <AppMain> </AppMain>
 
   <AppFooter :elementsFooter="store.footerInfos"></AppFooter>

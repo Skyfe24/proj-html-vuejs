@@ -33,40 +33,10 @@
             <p class="darkgrey">SATISFACTION RATE</p>
         </div>
     </div>
-    <div class="container2">
-
-        <img src="../assets/img/stock-full-hd-11-670x450.jpg" alt="" class="telephonegirl">
-        <div class="textpart">
-            <div class="minititles"> HOW WE WORK </div>
-            <div class="text">
-                <h1>Upgrade Your <br> Skills <span class="watergreen">Upgrade <br>Your Lifeclass</span></h1>
-                Opening up more opportunities in front of you to get the <br> ticket to more enjoyable door in life. Getting
-                equipped with <br>
-                new skills for new sets of insights into your career. <br>
-                MaxCoach accompany learners in every stage of learning. <br>
-                <br><br>
-                <span class="navs">Downloadfree guidebook <i class="fa-solid fa-arrow-right"></i></span>
-
-
-            </div>
-        </div>
-    </div>
-    <div class="text"> Latest Online Courses </div>
-
-    <div class="container2">
-        <img src="../assets/img/stock-full-hd-03-480x298.jpg" alt="">
-        <img src="../assets/img/stock-full-hd-03-480x298.jpg" alt="">
-        <img src="../assets/img/stock-full-hd-06-480x298.jpg" alt="">
-
-    </div>
-    <div class="text"> Control your personal preference settings to get notified ab,out appropriate courses. View all
-        courses </div>
 </template>
 
 
 <style scoped>
-@use './scss.scss'
-
 img {
     max-height: 400px;
     width: 100vw;
@@ -81,6 +51,7 @@ img {
 
 .telephonegirl {
     width: 40%;
+    margin-left: 200px;
 }
 
 .bold {
@@ -115,7 +86,19 @@ img {
     z-index: -1;
 }
 
+.dots2 {
+    position: relative;
+    bottom: -192px;
+    right: 135px;
+    z-index: -1;
+}
 
+.textpart2 {
+    margin-right: 300px;
+    margin-left: 200px;
+    position: relative;
+    left: -480px;
+}
 
 .greenblueShape {
     position: relative;
@@ -134,6 +117,29 @@ img {
 
 }
 
+.pinkycircle2 {
+    color: chocolate;
+    font-size: 100px;
+    position: relative;
+    right: 100px;
+    top: -420px;
+    opacity: 0.2;
+
+}
+
+.circledots {
+    position: relative;
+    right: 825px;
+    top: -85px;
+    z-index: -1;
+}
+
+.youtube {
+    position: relative;
+    right: 750px;
+    top: 10px;
+    cursor: pointer;
+}
 
 h1 {
     font-size: 45px;
@@ -165,7 +171,7 @@ h1 {
     align-items: center;
     width: 90%;
     margin-top: 80px;
-
+    margin-bottom: -100px;
     margin-right: 30px;
 
 }
@@ -186,6 +192,8 @@ h1 {
     position: relative;
     left: 80px;
 }
+
+
 
 .hero {
     max-height: 500px;
