@@ -14,7 +14,7 @@ export default {
 <template>
     <div class="container">
         <ul class="menu container">
-            <div v-for="element in elements" :key="elements">
+            <div class="navs" v-for="element in elements" :key="elements">
                 {{ element }}
 
 
@@ -36,10 +36,17 @@ export default {
     </div>
 
     <img src="../assets/img/home-3-hero-bg.jpg" alt="" class="hero">
+    <div class="herotext"> Commence Business <br>
+        <h1>Distant Mentoring Program</h1><br>
+        <button class="btn-white"> Download free guidebook -></button>
+    </div>
+
     <div class="container2">
         <div class="text"> Learn about our Work Culture at MaxCoach</div>
         <img src="../assets/img/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="">
+
     </div>
+
     <div class="container2">
         <div class="text"> 129+ , 80, 4% </div>
     </div>
@@ -62,8 +69,8 @@ export default {
 
 
 <style scoped>
-h2 {
-    color: rgb(233, 33, 6)
+h1 {
+    font-size: 45px;
 }
 
 .container {
@@ -73,7 +80,7 @@ h2 {
     align-items: center;
     height: 80px;
     width: 90%;
-
+    position: relative;
 }
 
 .container2 {
@@ -90,6 +97,23 @@ h2 {
     width: 100vw;
 }
 
+.herotext {
+    text-align: center;
+    position: relative;
+    top: -315px;
+    left: 47px;
+    color: white;
+}
+
+.btn-white {
+    background-color: white;
+    border: none;
+    border-radius: 7%;
+    padding: 20px;
+    color: #20ad96;
+    font-weight: 800;
+}
+
 li {
     text-transform: uppercase;
     text-decoration: none;
@@ -97,6 +121,7 @@ li {
     gap: 10px;
     align-items: center;
     font-size: 15px;
+
 }
 
 .logo {
@@ -104,6 +129,9 @@ li {
 
 }
 
+.navs {
+    cursor: pointer;
+}
 
 
 .justify-between {
