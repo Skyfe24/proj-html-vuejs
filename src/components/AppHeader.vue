@@ -38,11 +38,22 @@ export default {
     <img src="../assets/img/home-3-hero-bg.jpg" alt="" class="hero">
     <div class="herotext"> Commence Business <br>
         <h1>Distant Mentoring Program</h1><br>
-        <button class="btn-white"> Download free guidebook -></button>
+        <button class="btn-white watergreen"> Download free guidebook -></button>
     </div>
+    <!-- fine dell'HERO -->
 
-    <div class="container2">
-        <div class="text"> Learn about our Work Culture at MaxCoach</div>
+    <div class="container3 ">
+        <div class="textpart">
+            <div class="minititles"> EVERYTHING IN MAXCOACH</div>
+            <div class="text">
+                <h1>Learn about our <br><span class="watergreen">Work Culture </span>at <br>MaxCoach</h1>
+                Spend some time to visit our <br>website or head office and <br>discover our current courses, enrollment
+                procedure,
+                and <br>registration deadling. We're opening new classes every <br>beginning of each month. <br>
+                <p> Have Questions? <span class="watergreen"> Get Free Guide -></span></p>
+            </div>
+        </div>
+
         <img src="../assets/img/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="">
 
     </div>
@@ -92,6 +103,19 @@ h1 {
 
 }
 
+.container3 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+
+}
+
+.textpart {
+    margin-right: 300px;
+}
+
 .hero {
     max-height: 500px;
     width: 100vw;
@@ -110,8 +134,11 @@ h1 {
     border: none;
     border-radius: 7%;
     padding: 20px;
-    color: #20ad96;
     font-weight: 800;
+}
+
+.watergreen {
+    color: #20ad96;
 }
 
 li {
