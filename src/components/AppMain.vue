@@ -13,8 +13,11 @@
             </div>
         </div>
 
-        <img src="../assets/img/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="">
-
+        <img src="../assets/img/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="" class="WorkCulture">
+        <img src="../assets/img/about-us-01-ohkia3qg98rq9vg3s0mn2hkflr1migdqdw370qnegc.jpg" alt="" class="asianStudent">
+        <img src="../assets/img/maxcoach-shape-07-100x100.png" alt="" class="dots">
+        <img src="../assets/img/maxcoach-shape-02.png" alt="" class="greenblueShape">
+        <i class="fa-regular fa-circle pinkycircle"></i>
     </div>
 
     <div class="container2">
@@ -44,7 +47,44 @@ img {
     width: 100vw;
 }
 
-<style scoped>h1 {
+.WorkCulture {
+    position: relative;
+    left: 385px;
+}
+
+.asianStudent {
+    position: relative;
+    left: 285px;
+    bottom: 150px;
+}
+
+.dots {
+    position: relative;
+    bottom: 150px;
+    z-index: -1;
+}
+
+
+
+.greenblueShape {
+    position: relative;
+    right: 270px;
+    top: 208px;
+    width: 60%;
+}
+
+.pinkycircle {
+    color: chocolate;
+    font-size: 100px;
+    position: relative;
+    right: 970px;
+    top: -150px;
+    opacity: 0.2;
+
+}
+
+
+h1 {
     font-size: 45px;
 }
 
@@ -73,7 +113,8 @@ img {
     justify-content: center;
     align-items: center;
     width: 90%;
-
+    margin-top: -170px;
+    position: relative;
 }
 
 .textpart {
