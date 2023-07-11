@@ -5,8 +5,8 @@
         <div class="textpart">
             <div class="minititles"> EVERYTHING IN MAXCOACH</div>
             <div class="text">
-                <h1>Learn about our <br><span class="watergreen">Work Culture </span>at <br>MaxCoach</h1>
-                Spend some time to visit our <br>website or head office and <br>discover our current courses, enrollment
+                <h1>Learn about our <span class="watergreen"> Work Culture </span>at MaxCoach</h1>
+                Spend some time to visit our website or head office and <br>discover our current courses, enrollment
                 procedure,
                 and <br>registration deadling. We're opening new classes every <br>beginning of each month. <br>
                 <p> Have Questions? <span class="watergreen"> Get Free Guide -></span></p>
@@ -20,8 +20,16 @@
         <i class="fa-regular fa-circle pinkycircle"></i>
     </div>
 
-    <div class="container2">
-        <div class="text"> 129+ , 80, 4% </div>
+    <div class="container2x mb">
+        <div class="textstats watergreen"> <span class="bold">129+ </span>
+            <p class="darkgrey">ENROLLED LEARNERS</p>
+        </div>
+        <div class="textstats watergreen"><span class="bold"> 80 </span>
+            <p class="darkgrey"> FINISHED SESSIONS</p>
+        </div>
+        <div class="textstats watergreen"> <span class="bold"> 4% </span>
+            <p class="darkgrey">SATISFACTION RATE</p>
+        </div>
     </div>
     <div class="container2">
 
@@ -47,6 +55,27 @@ img {
     width: 100vw;
 }
 
+.textstats {
+    margin-right: 150px;
+    margin-left: 25px;
+    text-align: center;
+
+}
+
+.bold {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.darkgrey {
+    color: rgb(80, 72, 72);
+    font-weight: 600;
+}
+
+.mb {
+    padding-bottom: 300px;
+}
+
 .WorkCulture {
     position: relative;
     left: 385px;
@@ -60,7 +89,8 @@ img {
 
 .dots {
     position: relative;
-    bottom: 150px;
+    bottom: 192px;
+    right: -25px;
     z-index: -1;
 }
 
@@ -68,7 +98,7 @@ img {
 
 .greenblueShape {
     position: relative;
-    right: 270px;
+    right: 90px;
     top: 208px;
     width: 60%;
 }
@@ -107,6 +137,18 @@ h1 {
 
 }
 
+.container2x {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 80px;
+
+    margin-right: 30px;
+
+}
+
 .container3 {
     margin: auto;
     display: flex;
@@ -119,6 +161,9 @@ h1 {
 
 .textpart {
     margin-right: 300px;
+    margin-left: 200px;
+    position: relative;
+    left: 80px;
 }
 
 .hero {
