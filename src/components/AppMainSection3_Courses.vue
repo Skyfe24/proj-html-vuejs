@@ -42,6 +42,20 @@ export default {
 
 
 
+
+    </div>
+    <div class="dots-section">
+
+        <i class="fa-solid fa-circle"></i>
+
+        <i class="fa-solid fa-circle opac"></i>
+
+        <i class="fa-solid fa-circle opac"></i>
+
+        <i class="fa-solid fa-circle opac"></i>
+
+        <i class="fa-solid fa-circle opac"></i>
+
     </div>
     <div class="text"> Control your personal preference settings to get notified ab,out appropriate courses. View all
         courses </div>
@@ -51,6 +65,21 @@ export default {
 img {
     max-height: 400px;
 
+}
+
+.dots-section {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.opac {
+    opacity: 0.4;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.fa-circle {
+    display: inline-block;
 }
 
 .price {
