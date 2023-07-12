@@ -14,6 +14,7 @@ export default {
 <template>
     <div class="container gap-5">
         <ul class="menu container l-h">
+            <!-- NAVBAR -->
             <div class="navs links " v-for="element in elements" :key="elements">
 
 
@@ -22,8 +23,7 @@ export default {
 
                 <div class="active-menu">{{ element }}</div>
 
-                <!--<a href="#" class="class"> <i class="fa-solid fa-chevron-down active-menu"
-                        style="color: #000000; width: 2px; "></i></a></li> -->
+                <!-- DROPDOWN CONTENTS HERE  -->
 
 
                 <div class="dropdown-content">
@@ -49,9 +49,7 @@ export default {
                                 <a class="dropdown-item" href="#">{{ store.dropdowncontents[10] }} </a>
                             </div>
                         </div>
-                        <!--  <li v-for="dropdownContent in store.dropdowncontents" :key="dropdown - content">
-                            <a href="#"> {{ dropdownContent }} </a>
-                        </li> -->
+
 
 
 
@@ -74,6 +72,7 @@ export default {
         <!-- ICONA PROFILO UTENTE -->
         <i class="fa-regular fa-circle-user navs" style="color: #000000;"></i>
         <div class="input-group rounded">
+            <!-- SEARCH  -->
             <input type="search" class="form-control rounded navs" placeholder="Search..." aria-label="Search"
                 aria-describedby="search-addon" />
             <span class="input-group-text border-0 navs" id="search-addon">

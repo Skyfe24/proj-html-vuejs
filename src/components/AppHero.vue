@@ -10,7 +10,7 @@ export default {
     }
 };
 </script>
-
+ <!-- HERO IMAGE + TEXT -->
 <template>
     <img src="../assets/img/home-3-hero-bg.jpg" alt="" class="hero">
     <div class="herotext"> Commence Business <br>

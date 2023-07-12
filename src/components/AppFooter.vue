@@ -72,8 +72,6 @@ export default {
             <a href="#"><i class="fa-solid fa-arrow-right fa-rotate-270"></i></a>
         </div>
     </div>
-
-    <!-- GO UP BUTTON  -->
 </template>
 
 <style scoped>

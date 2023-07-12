@@ -16,6 +16,25 @@ export const store = reactive({
     "Privicy policy",
     "Terms of service",
   ],
+  course1: {
+    price: "$40,00",
+    subject: "Learning to Write as a Professional Author",
+    lessons: "20 lessons",
+    students: "50 students",
+  },
+  course2: {
+    price: "$0,00",
+    subject: "Customer-centrice Info-Tech Strategies",
+    lessons: "24 lessons",
+    students: "769 students",
+  },
+  course3: {
+    price: "$19,00",
+    subject: "Open Programming Courses for Everyone: Python",
+    lessons: "17 lessons",
+    students: "62 students",
+  },
+
   footerInfos: {
     title: "Address",
     street: "382 NE  191st St # 87934 Miami, FL 33179-3899",
