@@ -15,7 +15,8 @@ export default {
 
 <template>
     <!-- COURSES SECTION -->
-    <div class="text"> Latest Online Courses </div>
+    <div class="join opac mt-5">JOIN MAXCOACH AT BEST</div>
+    <div class="textcourses mb-5"> Latest Online <span class="watergreen">Courses</span> </div>
 
     <div class="container2">
         <div class="card"><img src="../assets/img/course-02-480x298.jpg" alt="">
@@ -57,11 +58,18 @@ export default {
         <i class="fa-solid fa-circle opac"></i>
 
     </div>
-    <div class="text"> Control your personal preference settings to get notified ab,out appropriate courses. View all
-        courses </div>
+    <div class="text dots-section"> <span class="opac">Control your personal preference settings to get notified about <br>
+            appropriate courses. </span>View all courses<i class="fa-solid fa-arrow-right"></i>
+    </div>
+    <img src="../assets/img/svg-1.svg" alt="" class="divide">
 </template>
 
 <style scoped>
+.divide {
+    filter: invert();
+    width: 100vw;
+}
+
 img {
     max-height: 400px;
 
@@ -73,13 +81,24 @@ img {
 }
 
 .opac {
-    opacity: 0.4;
+    opacity: 0.5;
     margin-left: 15px;
     cursor: pointer;
 }
 
+.join {
+    text-align: center;
+    font-weight: 650;
+}
+
 .fa-circle {
     display: inline-block;
+}
+
+.textcourses {
+    font-size: 38px;
+    font-weight: 650;
+    text-align: center;
 }
 
 .price {
@@ -135,7 +154,7 @@ h1 {
 .container2 {
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 90%;
 

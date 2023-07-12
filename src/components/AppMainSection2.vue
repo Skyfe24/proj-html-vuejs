@@ -2,14 +2,18 @@
 </script>
 
 <template>
-    <!-- HOW WE WORK SECTION -->
+    <!-- UPGRADE YOUR SKILLS UPGRADE YOUR LIFECLASS -->
     <div class="container2">
+        <img src="../assets/img/svg-0.svg" alt="" class="cloud opac">
 
         <img src="../assets/img/stock-full-hd-11-670x450.jpg" alt="" class="telephonegirl">
+
         <img src="../assets/img/maxcoach-shape-07-150x150.png" alt="" class="dots2">
         <img src="../assets/img/maxcoach-shape-05-150x150.png" alt="circledots" class="circledots">
         <i class="fa-regular fa-circle pinkycircle2"></i>
+
         <img src="../assets/img/icon-youtube-play.png" alt="youtube" class="youtube">
+
 
         <div class="textpart2">
             <div class="minititles"> HOW WE WORK </div>
@@ -29,6 +33,19 @@
 </template>
 
 <style scoped>
+.cloud {
+    position: relative;
+    left: 315px;
+    top: -180px;
+    z-index: 0;
+
+}
+
+
+.opac {
+    opacity: 0.1;
+}
+
 img {
     max-height: 400px;
     width: 100vw;
@@ -44,6 +61,7 @@ img {
 .telephonegirl {
     width: 40%;
     margin-left: 200px;
+    z-index: 5;
 }
 
 .bold {
@@ -76,7 +94,7 @@ img {
     position: relative;
     bottom: -192px;
     right: 135px;
-    z-index: -1;
+    z-index: 3;
 }
 
 .textpart2 {
@@ -106,9 +124,9 @@ img {
 
 .circledots {
     position: relative;
-    right: 825px;
-    top: -85px;
-    z-index: -1;
+    right: 845px;
+    top: -55px;
+    z-index: 120px;
 }
 
 .youtube {
