@@ -41,7 +41,7 @@ export default {
                 <h4> {{ elementsFooter.exploreSection }} </h4>
             </div>
 
-            <div v-for="element in elementsFooter.explore" :key="element">
+            <div v-for="element in elementsFooter.explore" :key="element" class="selector">
                 {{ element }}
             </div>
 
@@ -52,7 +52,7 @@ export default {
         <div class="information  navs ">
             <h4 class="white"> {{ elementsFooter.informationSection }} </h4>
 
-            <div v-for="element in elementsFooter.information" :key="element">
+            <div v-for="element in elementsFooter.information" :key="element" class="selector">
                 {{ element }}
             </div>
 
@@ -122,6 +122,10 @@ ul {
     top: -20px;
     cursor: pointer;
 
+}
+
+.selector:hover {
+    color: #20ad96
 }
 
 .explo {
