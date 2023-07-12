@@ -1,4 +1,16 @@
 <script>
+import { store } from "../data/store";
+export default {
+    name: "AppMainSection3_Courses",
+    data() {
+        return { store }
+    },
+    props: {
+        course1: Object,
+        course2: Object,
+        course3: Object,
+    }
+};
 </script>
 
 <template>
@@ -6,9 +18,29 @@
     <div class="text"> Latest Online Courses </div>
 
     <div class="container2">
-        <img src="../assets/img/stock-full-hd-03-480x298.jpg" alt="">
-        <img src="../assets/img/stock-full-hd-03-480x298.jpg" alt="">
-        <img src="../assets/img/stock-full-hd-06-480x298.jpg" alt="">
+        <div class="card"><img src="../assets/img/course-02-480x298.jpg" alt="">
+            <p class="watergreen ms-4 mt-3 price"> {{ course1.price }} </p>
+            <p class="description ms-4 mt-3"> {{ course1.subject }}</p>
+            <p class="minitext ms-4 mt-3"> <i class="fa-solid fa-book"></i>&nbsp{{ course1.lessons }}&nbsp <i
+                    class="fa-regular fa-user"></i> {{
+                        course1.students }} </p>
+        </div>
+        <div class="card"><img src="../assets/img/stock-full-hd-03-480x298.jpg" alt="">
+            <p class="watergreen ms-4 mt-3 price"> {{ course2.price }} </p>
+            <p class="description ms-4 mt-3"> {{ course2.subject }}</p>
+            <p class="minitext ms-4 mt-3"> <i class="fa-solid fa-book"></i>&nbsp{{ course2.lessons }}&nbsp <i
+                    class="fa-regular fa-user"></i> {{
+                        course2.students }} </p>
+        </div>
+        <div class="card"><img src="../assets/img/stock-full-hd-04-480x298.jpg" alt="">
+            <p class="watergreen ms-4 mt-3 price"> {{ course3.price }} </p>
+            <p class="description ms-4 mt-3"> {{ course3.subject }}</p>
+            <p class="minitext ms-4 mt-3"> <i class="fa-solid fa-book"></i>&nbsp{{ course3.lessons }}&nbsp <i
+                    class="fa-regular fa-user"></i> {{
+                        course3.students }} </p>
+        </div>
+
+
 
     </div>
     <div class="text"> Control your personal preference settings to get notified ab,out appropriate courses. View all
@@ -18,7 +50,30 @@
 <style scoped>
 img {
     max-height: 400px;
-    width: 100vw;
+
+}
+
+.price {
+    font-size: 28px;
+    font-weight: 650;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.description {
+    font-size: 19px;
+    font-weight: 650;
+}
+
+.description:hover {
+    color: #20ad96;
+}
+
+.minitext {
+    opacity: 0.5;
 }
 
 .textstats {

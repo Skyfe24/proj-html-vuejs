@@ -25,20 +25,27 @@ export default {
 </script>
 
 <template>
-  <AppHeader :elements="store.headerNavs"></AppHeader>
-  <AppHero> </AppHero>
-  <AppMainSection1> </AppMainSection1>
-  <AppMainSection2> </AppMainSection2>
-  <AppMainSection3_Courses> </AppMainSection3_Courses>
-  <AppMain> </AppMain>
+  <div class="all">
+    <AppHeader :elements="store.headerNavs"></AppHeader>
+    <AppHero> </AppHero>
+    <AppMainSection1> </AppMainSection1>
+    <AppMainSection2> </AppMainSection2>
+    <AppMainSection3_Courses :course1="store.course1" :course2="store.course2" :course3="store.course3">
+    </AppMainSection3_Courses>
+    <AppMain> </AppMain>
 
-  <AppFooter :elementsFooter="store.footerInfos"></AppFooter>
+    <AppFooter :elementsFooter="store.footerInfos"></AppFooter>
+  </div>
 </template>
 
 
 <style>
 h3 {
   color: rgb(231, 65, 23)
+}
+
+.all {
+  background-color: rgb(240, 241, 241);
 }
 
 li {
