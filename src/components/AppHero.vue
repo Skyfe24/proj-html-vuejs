@@ -24,6 +24,11 @@ h1 {
     font-size: 45px;
 }
 
+.btn-white:hover {
+    background-color: #20ad96;
+    color: white;
+}
+
 .container {
     margin: auto;
     display: flex;
