@@ -17,7 +17,7 @@ export default {
     <!-- COURSES SECTION -->
     <div class="join opac mt-5">JOIN MAXCOACH AT BEST</div>
     <div class="textcourses mb-5"> Latest Online <span class="watergreen">Courses</span> </div>
-
+    <!-- CARD #1 -->
     <div class="container2">
         <div class="card"><img src="../assets/img/course-02-480x298.jpg" alt="">
             <p class="watergreen ms-4 mt-3 price"> {{ course1.price }} </p>
@@ -26,6 +26,7 @@ export default {
                     class="fa-regular fa-user"></i> {{
                         course1.students }} </p>
         </div>
+        <!-- CARD #2 -->
         <div class="card"><img src="../assets/img/stock-full-hd-03-480x298.jpg" alt="">
             <p class="watergreen ms-4 mt-3 price"> {{ course2.price }} </p>
             <p class="description ms-4 mt-3"> {{ course2.subject }}</p>
@@ -33,6 +34,7 @@ export default {
                     class="fa-regular fa-user"></i> {{
                         course2.students }} </p>
         </div>
+        <!-- CARD #3 -->
         <div class="card"><img src="../assets/img/stock-full-hd-04-480x298.jpg" alt="">
             <p class="watergreen ms-4 mt-3 price"> {{ course3.price }} </p>
             <p class="description ms-4 mt-3"> {{ course3.subject }}</p>
@@ -45,6 +47,7 @@ export default {
 
 
     </div>
+    <!-- DOTS (USEFUL TO MAKE THE IMG CAROUSEL) -->
     <div class="dots-section">
 
         <i class="fa-solid fa-circle"></i>
@@ -58,6 +61,7 @@ export default {
         <i class="fa-solid fa-circle opac"></i>
 
     </div>
+    <!-- LITTLE TEXT IN THE ENDING PART -->
     <div class="text dots-section"> <span class="opac">Control your personal preference settings to get notified about <br>
             appropriate courses. </span>View all courses<i class="fa-solid fa-arrow-right"></i>
     </div>
