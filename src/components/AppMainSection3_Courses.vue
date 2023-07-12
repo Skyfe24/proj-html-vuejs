@@ -2,6 +2,7 @@
 </script>
 
 <template>
+    <!-- COURSES SECTION -->
     <div class="text"> Latest Online Courses </div>
 
     <div class="container2">

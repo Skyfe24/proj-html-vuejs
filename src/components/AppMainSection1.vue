@@ -4,6 +4,7 @@
 <template>
     <div class="container3 ">
         <div class="textpart">
+            <!-- WORK CULTURE SECTION -->
             <div class="minititles"> EVERYTHING IN MAXCOACH</div>
             <div class="text">
                 <h1>Learn about our <span class="watergreen"> Work Culture </span>at MaxCoach</h1>
@@ -21,7 +22,7 @@
         <img src="../assets/img/maxcoach-shape-02.png" alt="" class="greenblueShape">
         <i class="fa-regular fa-circle pinkycircle"></i>
     </div>
-
+    <!-- STATS n NUMBERS -->
     <div class="container2x mb">
         <div class="textstats watergreen"> <span class="bold">129+ </span>
             <p class="darkgrey">ENROLLED LEARNERS</p>

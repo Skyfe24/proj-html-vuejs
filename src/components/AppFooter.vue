@@ -12,7 +12,8 @@ export default {
 </script>
 
 <template>
-    <div class="containerx flex">
+    <div class="containerx gap-5">
+        <!-- ADDRESS SECTION  -->
         <div class="address">
             <h4 class="white"> {{ elementsFooter.title }}</h4>
             <div class="row ">
@@ -34,41 +35,45 @@ export default {
                 </div>
             </div>
         </div>
-        <div class="row content-center w-100 gap-40">
+        <!-- EXPLORE SECTION  -->
+        <div class="explo">
             <div class="explore white">
                 <h4> {{ elementsFooter.exploreSection }} </h4>
             </div>
-            <ul>
-                <li v-for="element in elementsFooter.explore" :key="element">
-                    {{ element }}
-                </li>
-            </ul>
+
+            <div v-for="element in elementsFooter.explore" :key="element">
+                {{ element }}
+            </div>
+
+
+
+
+        </div><!-- INFORMATION SECTION  -->
+        <div class="information  navs ">
+            <h4 class="white"> {{ elementsFooter.informationSection }} </h4>
+
+            <div v-for="element in elementsFooter.information" :key="element">
+                {{ element }}
+            </div>
+
+
 
 
 
         </div>
-        <div class="information white navs ">
-            <h4> {{ elementsFooter.informationSection }} </h4>
-            <ul>
-                <li v-for="element in elementsFooter.information" :key="element">
-                    {{ element }}
-                </li>
-            </ul>
 
-
-
-
-        </div>
-        <div class="otherinfos">
-            <p>@2020 MaxMoach. All rights reserved</p>
-        </div>
-
-        <!-- GO UP -->
-        <div class="up-up">
-            <a href="#"><i class="fa-solid fa-arrow-right fa-rotate-270"></i></a>
-        </div>
 
     </div>
+    <!-- CREDITS  -->
+    <div class="otherinfos">
+        <p class="pt-5">@2020 MaxMoach. All rights reserved</p>
+        <!-- GO UP BUTTON  -->
+        <div class="up-up navs">
+            <a href="#"><i class="fa-solid fa-arrow-right fa-rotate-270"></i></a>
+        </div>
+    </div>
+
+    <!-- GO UP BUTTON  -->
 </template>
 
 <style scoped>
@@ -76,11 +81,21 @@ export default {
     color: #696969;
     background-color: rgb(15, 14, 26);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
+    position: relative;
 
+}
 
+.social-icon {
+    margin-right: 160px;
+}
+
+.otherinfos {
+    background-color: rgb(15, 14, 26);
+    text-align: center;
+    color: aliceblue;
 }
 
 .h4 {
@@ -88,13 +103,12 @@ export default {
 }
 
 ul {
-    color: rgba(255, 255, 255, 0.733);
     list-style: none;
     font-size: 14px;
 }
 
 .up-up {
-    width: 80px;
+    width: 60px;
     height: 40px;
     border-radius: 50%;
     background-color: #20ad96;
@@ -102,8 +116,18 @@ ul {
     justify-content: center;
     align-items: center;
     color: white;
+
+    position: relative;
+    left: 1700px;
+    top: -20px;
     cursor: pointer;
 
+}
+
+.explo {
+    position: relative;
+    top: 20px;
+    cursor: pointer;
 }
 
 .navs {
@@ -114,11 +138,7 @@ ul {
     color: white;
 }
 
-.flex {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-
+li {
+    color: grey;
 }
 </style>

@@ -12,27 +12,36 @@ export default {
 
 </script>
 <template>
-    <div class="container">
-        <ul class="menu container">
-            <div class="navs" v-for="element in elements" :key="elements">
-                {{ element }}
+    <div class="container gap-5">
+        <ul class="menu container l-h">
+            <div class="navs links " v-for="element in elements" :key="elements">
 
 
 
+
+
+                <div class="active-menu">{{ element }}</div>
+                <a href="#" class="class"> <i class="fa-solid fa-chevron-down active-menu"
+                        style="color: #000000; width: 2px; ;"></i></a>
             </div>
-            <a class="active-menu" href="#">{{ element }}</a>
-            <a href="#" class="class"></a>
 
         </ul>
         <img :src="store.headerLogo" alt="" class="logo">
+        <!-- ICONA CARRELLO -->
+        <i class="fa-solid fa-cart-shopping circle_container" style="color: #000000;">
+            <div class="circle-container">
+                <span class="circle">0</span>
+            </div>
+        </i>
+        <!-- ICONA PROFILO UTENTE -->
+        <i class="fa-regular fa-circle-user" style="color: #000000;"></i>
         <div class="input-group rounded">
-            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+            <input type="search" class="form-control rounded" placeholder="Search..." aria-label="Search"
                 aria-describedby="search-addon" />
             <span class="input-group-text border-0" id="search-addon">
                 <i class="fas fa-search"></i>
             </span>
         </div>
-        <i class="fa-solid fa-ghost"></i>
     </div>
 </template >
 
@@ -40,6 +49,24 @@ export default {
 <style scoped>
 h1 {
     font-size: 45px;
+}
+
+.l-h {
+    line-height: 20px;
+}
+
+.fas.fa-search {
+    color: #20ad96;
+    padding: 10px;
+}
+
+.fa-solid {
+    width: 5px;
+    display: inline-block
+}
+
+.form-control {
+    background-color: rgb(235, 234, 234);
 }
 
 .container {
@@ -52,6 +79,11 @@ h1 {
     position: relative;
 }
 
+.links {
+    list-style: none;
+    color: rgb(27, 26, 26);
+}
+
 .container2 {
     margin: auto;
     display: flex;
@@ -59,6 +91,25 @@ h1 {
     align-items: center;
     width: 90%;
 
+}
+
+.circle-container {
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    top: -28px;
+    right: -28px;
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    background: #20ad96;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container3 {
@@ -118,6 +169,14 @@ li {
     cursor: pointer;
 }
 
+.div.navs.links {
+    padding-right: 8px;
+
+}
+
+.active-menu {
+    display: inline-block;
+}
 
 .justify-between {
     justify-content: space-between;

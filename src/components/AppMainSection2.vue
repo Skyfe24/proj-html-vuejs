@@ -2,6 +2,7 @@
 </script>
 
 <template>
+    <!-- HOW WE WORK SECTION -->
     <div class="container2">
 
         <img src="../assets/img/stock-full-hd-11-670x450.jpg" alt="" class="telephonegirl">

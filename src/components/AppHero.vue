@@ -15,7 +15,7 @@ export default {
     <img src="../assets/img/home-3-hero-bg.jpg" alt="" class="hero">
     <div class="herotext"> Commence Business <br>
         <h1>Distant Mentoring Program</h1><br>
-        <button class="btn-white watergreen navs"> Download free guidebook -></button>
+        <button class="btn-white watergreen navs"> Download free guidebook <i class="fa-solid fa-arrow-right"></i></button>
     </div>
 </template>  
 
