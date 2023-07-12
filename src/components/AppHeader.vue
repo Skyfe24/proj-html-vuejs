@@ -28,17 +28,17 @@ export default {
         </ul>
         <img :src="store.headerLogo" alt="" class="logo">
         <!-- ICONA CARRELLO -->
-        <i class="fa-solid fa-cart-shopping circle_container" style="color: #000000;">
+        <i class="fa-solid fa-cart-shopping circle_container navs" style="color: #000000;">
             <div class="circle-container">
                 <span class="circle">0</span>
             </div>
         </i>
         <!-- ICONA PROFILO UTENTE -->
-        <i class="fa-regular fa-circle-user" style="color: #000000;"></i>
+        <i class="fa-regular fa-circle-user navs" style="color: #000000;"></i>
         <div class="input-group rounded">
-            <input type="search" class="form-control rounded" placeholder="Search..." aria-label="Search"
+            <input type="search" class="form-control rounded navs" placeholder="Search..." aria-label="Search"
                 aria-describedby="search-addon" />
-            <span class="input-group-text border-0" id="search-addon">
+            <span class="input-group-text border-0 navs" id="search-addon">
                 <i class="fas fa-search"></i>
             </span>
         </div>
@@ -60,13 +60,19 @@ h1 {
     padding: 10px;
 }
 
+.input-group-text {
+    background-color: rgb(248, 247, 247);
+    border-style: none;
+}
+
 .fa-solid {
     width: 5px;
     display: inline-block
 }
 
 .form-control {
-    background-color: rgb(235, 234, 234);
+    background-color: rgb(248, 247, 247);
+    border-style: none;
 }
 
 .container {

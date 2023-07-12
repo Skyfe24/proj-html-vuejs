@@ -59,6 +59,8 @@ h1 {
 .hero {
     max-height: 500px;
     width: 100vw;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .herotext {
