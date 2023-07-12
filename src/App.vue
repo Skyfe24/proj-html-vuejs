@@ -8,6 +8,7 @@ import AppFooter from './components/AppFooter.vue';
 import AppHero from './components/AppHero.vue';
 import { store } from "./data/store";
 
+
 export default {
 
   components: {
