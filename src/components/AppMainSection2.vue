@@ -24,7 +24,7 @@
                 new skills for new sets of insights into your career. <br>
                 MaxCoach accompany learners in every stage of learning. <br>
                 <br><br>
-                <span class="navs">Downloadfree guidebook <i class="fa-solid fa-arrow-right"></i></span>
+                <span class="navs boldy">Downloadfree guidebook <i class="fa-solid fa-arrow-right"></i></span>
 
 
             </div>
@@ -41,6 +41,9 @@
 
 }
 
+.boldy {
+    font-weight: 700;
+}
 
 .opac {
     opacity: 0.1;

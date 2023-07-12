@@ -2,16 +2,16 @@
 
 </script>
 <template>
-    <div class="container3 ">
+    <div class="container3 mt-1">
         <div class="textpart">
-            <!-- WORK CULTURE SECTION -->
+            <!-- WORK CULTURE -->
             <div class="minititles"> EVERYTHING IN MAXCOACH</div>
             <div class="text">
                 <h1>Learn about our <span class="watergreen"> Work Culture </span>at MaxCoach</h1>
                 Spend some time to visit our website or head office and <br>discover our current courses, enrollment
                 procedure,
-                and <br>registration deadling. We're opening new classes every <br>beginning of each month. <br>
-                <p> Have Questions? <span class="watergreen"><br><br> <span class="navs">Get Free Guide <i
+                and <br>registration deadling. We're opening new classes every <br>beginning of each month. <br><br>
+                <p> Have Questions? <span class="watergreen"><span class="navs">Get Free Guide <i
                                 class="fa-solid fa-arrow-right"></i></span></span></p>
             </div>
         </div>
@@ -72,19 +72,21 @@ img {
 .WorkCulture {
     position: relative;
     left: 385px;
+    z-index: 1;
 }
 
 .asianStudent {
     position: relative;
     left: 285px;
-    bottom: 150px;
+    bottom: 200px;
+    z-index: 2;
 }
 
 .dots {
     position: relative;
     bottom: 192px;
-    right: -25px;
-    z-index: -1;
+    right: -7px;
+    z-index: 0;
 }
 
 .dots2 {
@@ -103,7 +105,7 @@ img {
 
 .greenblueShape {
     position: relative;
-    right: 90px;
+    right: 200px;
     top: 208px;
     width: 60%;
 }
@@ -178,7 +180,7 @@ h1 {
 }
 
 .container3 {
-    margin: auto;
+    margin: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,7 +190,7 @@ h1 {
 }
 
 .textpart {
-    margin-right: 300px;
+    margin-right: 100px;
     margin-left: 200px;
     position: relative;
     left: 80px;

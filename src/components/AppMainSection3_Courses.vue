@@ -63,7 +63,8 @@ export default {
     </div>
     <!-- LITTLE TEXT IN THE ENDING PART -->
     <div class="text dots-section"> <span class="opac">Control your personal preference settings to get notified about <br>
-            appropriate courses. </span>View all courses<i class="fa-solid fa-arrow-right"></i>
+            appropriate courses. </span> <span class="boldy">View all courses &nbsp<i
+                class="fa-solid fa-arrow-right"></i></span>
     </div>
     <img src="../assets/img/svg-1.svg" alt="" class="divide">
 </template>
@@ -82,6 +83,10 @@ img {
 .dots-section {
     text-align: center;
     margin-top: 25px;
+}
+
+.boldy {
+    font-weight: 700;
 }
 
 .opac {
