@@ -54,12 +54,6 @@ img {
     width: 100vw;
 }
 
-.textstats {
-    margin-right: 150px;
-    margin-left: 25px;
-    text-align: center;
-
-}
 
 .telephonegirl {
     width: 40%;
@@ -67,30 +61,6 @@ img {
     z-index: 5;
 }
 
-.bold {
-    font-weight: 900;
-    font-size: 50px;
-}
-
-.darkgrey {
-    color: rgb(80, 72, 72);
-    font-weight: 600;
-}
-
-.mb {
-    padding-bottom: 300px;
-}
-
-.WorkCulture {
-    position: relative;
-    left: 385px;
-}
-
-.asianStudent {
-    position: relative;
-    left: 285px;
-    bottom: 150px;
-}
 
 
 .dots2 {
@@ -107,12 +77,6 @@ img {
     left: -480px;
 }
 
-.greenblueShape {
-    position: relative;
-    right: 90px;
-    top: 208px;
-    width: 60%;
-}
 
 
 .pinkycircle2 {
@@ -143,15 +107,7 @@ h1 {
     font-size: 45px;
 }
 
-.container {
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    width: 90%;
-    position: relative;
-}
+
 
 .container2 {
     margin: auto;
@@ -161,18 +117,6 @@ h1 {
     width: 90%;
 
 }
-
-
-
-.textpart {
-    margin-right: 300px;
-    margin-left: 200px;
-    position: relative;
-    left: 80px;
-}
-
-
-
 
 
 

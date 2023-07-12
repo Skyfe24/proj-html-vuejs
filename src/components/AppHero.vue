@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
 h1 {
-    font-size: 45px;
+    font-size: 75px;
 }
 
 .btn-white:hover {
@@ -70,7 +70,7 @@ h1 {
 .herotext {
     text-align: center;
     position: relative;
-    top: -315px;
+    top: -385px;
     left: 47px;
     color: white;
 }
@@ -78,10 +78,15 @@ h1 {
 .btn-white {
     background-color: white;
     border: none;
-    border-radius: 7%;
+    border-radius: 8%;
     padding: 20px;
     font-weight: 800;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
 }
+
 
 .watergreen {
     color: #20ad96;
@@ -97,17 +102,7 @@ li {
 
 }
 
-.logo {
-    width: 30%;
-
-}
-
 .navs {
     cursor: pointer;
-}
-
-
-.justify-between {
-    justify-content: space-between;
 }
 </style>

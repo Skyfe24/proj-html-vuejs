@@ -100,9 +100,7 @@ export default {
     color: aliceblue;
 }
 
-.h4 {
-    margin-bottom: none;
-}
+
 
 ul {
     list-style: none;

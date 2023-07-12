@@ -50,10 +50,6 @@ img {
 
 }
 
-.telephonegirl {
-    width: 40%;
-    margin-left: 200px;
-}
 
 .bold {
     font-weight: 900;
@@ -89,19 +85,8 @@ img {
     z-index: 0;
 }
 
-.dots2 {
-    position: relative;
-    bottom: -192px;
-    right: 135px;
-    z-index: -1;
-}
 
-.textpart2 {
-    margin-right: 300px;
-    margin-left: 200px;
-    position: relative;
-    left: -480px;
-}
+
 
 .greenblueShape {
     position: relative;
@@ -120,52 +105,14 @@ img {
 
 }
 
-.pinkycircle2 {
-    color: chocolate;
-    font-size: 100px;
-    position: relative;
-    right: 100px;
-    top: -420px;
-    opacity: 0.2;
 
-}
 
-.circledots {
-    position: relative;
-    right: 825px;
-    top: -85px;
-    z-index: -1;
-}
-
-.youtube {
-    position: relative;
-    right: 750px;
-    top: 10px;
-    cursor: pointer;
-}
 
 h1 {
     font-size: 45px;
 }
 
-.container {
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    width: 90%;
-    position: relative;
-}
 
-.container2 {
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-
-}
 
 .container2x {
     margin: auto;
@@ -197,28 +144,6 @@ h1 {
 }
 
 
-
-.hero {
-    max-height: 500px;
-    width: 100vw;
-}
-
-.herotext {
-    text-align: center;
-    position: relative;
-    top: -315px;
-    left: 47px;
-    color: white;
-}
-
-.btn-white {
-    background-color: white;
-    border: none;
-    border-radius: 7%;
-    padding: 20px;
-    font-weight: 800;
-}
-
 .watergreen {
     color: #20ad96;
 }
@@ -233,17 +158,8 @@ li {
 
 }
 
-.logo {
-    width: 30%;
-
-}
 
 .navs {
     cursor: pointer;
-}
-
-
-.justify-between {
-    justify-content: space-between;
 }
 </style>

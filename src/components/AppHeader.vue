@@ -148,14 +148,6 @@ h1 {
     color: rgb(27, 26, 26);
 }
 
-.container2 {
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-
-}
 
 .circle-container {
     position: relative;
@@ -176,45 +168,6 @@ h1 {
     align-items: center;
 }
 
-.container3 {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-
-}
-
-.textpart {
-    margin-right: 300px;
-}
-
-.hero {
-    max-height: 500px;
-    width: 100vw;
-}
-
-.herotext {
-    text-align: center;
-    position: relative;
-    top: -315px;
-    left: 47px;
-    color: white;
-}
-
-.btn-white {
-    background-color: white;
-    border: none;
-    border-radius: 7%;
-    padding: 20px;
-    font-weight: 800;
-}
-
-
-
-.watergreen {
-    color: #20ad96;
-}
 
 li {
     text-transform: uppercase;
@@ -227,8 +180,9 @@ li {
 }
 
 .logo {
-    width: 30%;
-    margin-right: 95px;
+    width: 200px;
+    margin-right: 105px;
+    margin-left: 55px;
 
 }
 
@@ -245,9 +199,5 @@ li {
 
 .active-menu:hover {
     color: #20ad96;
-}
-
-.justify-between {
-    justify-content: space-between;
 }
 </style>
