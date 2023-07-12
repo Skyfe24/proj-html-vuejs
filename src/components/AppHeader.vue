@@ -152,6 +152,8 @@ h1 {
     font-weight: 800;
 }
 
+
+
 .watergreen {
     color: #20ad96;
 }
@@ -168,6 +170,7 @@ li {
 
 .logo {
     width: 30%;
+    margin-right: 95px;
 
 }
 
@@ -175,13 +178,11 @@ li {
     cursor: pointer;
 }
 
-.div.navs.links {
-    padding-right: 8px;
-
-}
+.div.navs.links {}
 
 .active-menu {
-    display: inline-block;
+    display: inline block;
+    margin-right: 30px;
 }
 
 .justify-between {
