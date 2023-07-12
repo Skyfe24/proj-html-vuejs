@@ -27,10 +27,10 @@ export default {
                 </ul>
                 <div class="social-icon">
 
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-facebook selector"></i>
+                    <i class="fa-brands fa-instagram selector"></i>
+                    <i class="fa-brands fa-twitter selector"></i>
+                    <i class="fa-brands fa-linkedin selector"></i>
 
                 </div>
             </div>
@@ -86,6 +86,10 @@ export default {
     width: 100%;
     position: relative;
 
+}
+
+.fa-brands {
+    margin-right: 10px;
 }
 
 .social-icon {
