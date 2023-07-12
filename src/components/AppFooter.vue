@@ -112,7 +112,7 @@ ul {
 }
 
 .up-up {
-    width: 60px;
+    width: 50px;
     height: 40px;
     border-radius: 50%;
     background-color: #20ad96;
